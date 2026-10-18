@@ -4,13 +4,12 @@ import numpy as np
 
 st.set_page_config(page_title="İlk Streamlit Uygulamam", page_icon="🚀")
 
-st.title("🚀 İlk Streamlit Uygulamam")
-st.write("Bu küçük uygulama Streamlit Community Cloud üzerinde çalışıyor.")
+st.title("uygulamam")
 
 # 1) İsim selamlama
-isim = st.text_input("Adın ne?")
+isim = st.text_input("adın ne?")
 if isim:
-    st.success(f"Merhaba {isim}! 👋")
+    st.success(f"merhaba {isim}!")
 
 st.divider()
 
