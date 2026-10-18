@@ -24,14 +24,3 @@ if col2.button("🔄 Sıfırla"):
     st.session_state.sayac = 0
 
 st.metric("Sayaç", st.session_state.sayac)
-
-st.divider()
-
-# 3) Rastgele grafik
-st.subheader("📈 Rastgele grafik")
-nokta = st.slider("Kaç nokta olsun?", 10, 200, 50)
-veri = pd.DataFrame(
-    np.random.randn(nokta, 3),
-    columns=["A", "B", "C"],
-)
-st.line_chart(veri)
