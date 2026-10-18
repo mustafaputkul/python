@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.set_page_config(page_title="streamlit", page_icon="🚀")
+st.set_page_config(page_title="-", page_icon="🚀")
 
-st.title("uygulamam")
+st.title("Uygulama")
 
 # 1) İsim selamlama
 isim = st.text_input("adın ne?")
